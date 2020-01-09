@@ -86,14 +86,12 @@ def all_holidays_with_bbq(holiday_hash)
   end 
   #return an array 
   symbols
-=======
+
   holiday_hash.values.each do |idk| 
     binding.pry 
   end 
   #return an array 
 
-
->>>>>>> bbe5c84034ab39d31c9bf5454ac88fa977c53263
 end
 
 
