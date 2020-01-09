@@ -76,7 +76,6 @@ def all_holidays_with_bbq(holiday_hash)
   
   #if the symbol's supply list includes "BBQ" put that symbol into a hash
   symbols = []
-<<<<<<< HEAD
   holiday_hash.values.each do |data| 
     data.each do |holiday, supplies|
       if supplies.include?("BBQ")
